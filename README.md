@@ -1,11 +1,22 @@
-# ReconPro: Automated Vulnerability Scanner
+# ReconPro: Automated Reconnaissance Tool 🛡️
 
-## 🛠️ Project Overview
-Developed a specialized Bash script to automate the initial reconnaissance phase of a security audit. This tool streamlines the process of service identification and vulnerability assessment for Windows-based systems.
+ReconPro is a custom Bash-based automation tool designed to streamline the initial phases of a penetration test. It automates network reconnaissance by identifying active hosts and open services.
 
-## 🚀 Key Features
-- **Automated Enumeration:** Single-command execution for OS detection and service versioning using Nmap.
-- **Vulnerability Scripting:** Integrated NSE (Nmap Scripting Engine) to check for critical exploits like MS17-010 (EternalBlue).
-- **Structured Reporting:** Automatically exports scan results to a timestamped `.txt` report for audit documentation.
+## ✨ Features
+- **Automated Port Scanning:** Uses Nmap to identify open services and versions.
+- **Reporting:** Automatically creates a `scans/` directory and saves results into timestamped text files.
+- **Efficiency:** Replaces manual command entry with a single-run execution script.
+
+## 🛠️ Tools Used
+- **Bash Scripting:** For the automation logic.
+- **Nmap:** For network discovery and security auditing.
+- **Linux Terminal:** Primary environment for execution.
+
+## 🚀 How to Use
+1. Clone the repo: `git clone https://github.com/Hemanth21-cmd/ReconPro-Automation.git`
+2. Give execution permissions: `chmod +x reconpro.sh`
+3. Run the tool: `./reconpro.sh`
+
+---
 
 
